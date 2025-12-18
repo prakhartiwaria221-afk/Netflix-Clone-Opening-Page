@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #000;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  color: red;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  cursor: pointer;
+}
+
+.banner {
+  background: url('./AAAAQcA47bXH-6wp4w5Je0zj27Mxg-Ca4dHuHjxx9VG4Mh4Ght_xfFpB7bzjBk9T3IrtKXmgmUCbGoh02dYGMJszCN7UJ3lpi3VoWBtVYYEfP5yPzfNhjZDavMF-EQd6j1u0xricgEdx4sWJxs13zYuFIUeK4MY.jpg') center/cover no-repeat;
+  height: 60vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 50px;
+}
+
+.banner-content {
+  max-width: 500px;
+}
+
+.banner h2 {
+  font-size: 3em;
+}
+
+.banner p {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.buttons button {
+  margin: 10px 10px 0 0;
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.buttons button:first-child {
+  background: #fff;
+  color: #000;
+}
+
+.buttons button:last-child {
+  background: rgba(109, 109, 110, 0.7);
+  color: #fff;
+}
+
+.row {
+  padding: 20px;
+}
+
+.row-posters {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  padding-top: 10px;
+}
+
+.row-posters img {
+  width: 200px;
+  border-radius: 5px;
+  transition: transform 0.2s;
+}
+
+.row-posters img:hover {
+  transform: scale(1.08);
+}
